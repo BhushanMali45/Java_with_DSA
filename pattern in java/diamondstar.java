@@ -14,6 +14,7 @@ public class diamondstar{
                 System.out.print("*");
 
             }
+
             System.out.println();
     }
 

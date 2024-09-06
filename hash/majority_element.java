@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class hash3 {
+public class majority_element{
 
   //majority element
   ///imp
@@ -24,11 +24,17 @@ public class hash3 {
     System.out.println(map);
     Set<Integer> keySet = map.keySet();
 
-    for (Integer key : keySet) {
-      if (map.get(key) > arr.length / 3) {
-        System.out.println(key);
+     for (Integer key : keySet) {
+      
+        System.out.print(key);
       }
-    }
+
+
+    // for (Integer key : keySet) {
+    //   if (map.get(key) > arr.length / 3) {
+    //     System.out.println(key);
+    //   }
+    // }
     // for (Integer key: hm.keySet()) {
     //     if(hm.get(key) >arr.length/3) {
     //         System.out.println(key);

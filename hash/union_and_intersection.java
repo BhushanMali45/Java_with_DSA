@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class heap8 {
+public class union_and_intersection {
 
   //union and intersection
   public static void main(String args[]) {
